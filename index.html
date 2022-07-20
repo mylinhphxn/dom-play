@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/nav.css" />
   <style>
     /*
-    .hamlet{
+    #play span{
         background-color:yellow;
     }
     */
@@ -29,9 +29,13 @@
    <main class="wrapper">
 
     <h2>Hamlet</h2>
-    <p><span onclick = "this.style.backgroundColor = 'yellow' ">Hamlet: To be or not to be?</span></p>
-    <p>Skull: Are you talking to me?</p>
-    <p><span>Hamlet: What did you say?</span></p>
+    <div id = "play">
+    <p><span data-actor="hamlet">Hamlet: To be or not to be?</span></p>
+    <p><span data-actor="skull">Skull: Are you talking to me?</span></p>
+    <p><span data-actor="hamlet">Hamlet: What did you say?</span></p>
+    <p><span data-actor="skull">Skull: I didn't say anything. I'm only a skull.</span></p>
+    <p><span data-actor="hamlet">Hamlet: Oh good. I thought I was going crazy!</span></p>
+    </div>
      <footer>
       <p><small>&copy; 2022 by 
           Mylinh Phan, All Rights Reserved ~ 
